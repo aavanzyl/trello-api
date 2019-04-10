@@ -26,8 +26,6 @@ View an example below.
 npm install trello-api
 ```
 
-```
-
 ## Deploying
 
 ```
@@ -51,16 +49,13 @@ let _config = {
 };
 
 let _trello = new TrelloApi(_config);
-
-
 ```
 
 ## Testing
 
 To test the module tape is used.
 
-```js
-
+```
 yarn test
 ```
 
