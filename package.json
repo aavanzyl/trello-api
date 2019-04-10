@@ -1,0 +1,25 @@
+{
+  "name": "trello-api",
+  "version": "0.0.1",
+  "description": "Trello Api wrapper",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape src/test/*.test.js",
+    "postversion": "git push origin master --tags",
+  },
+  "repository": "git@github.com:aavanzyl/trello-api.git",
+  "author": "Anton Van Zyl <aavanzyl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "base-64": "^0.1.0",
+    "bluebird": "^3.5.0",
+    "https-proxy-agent": "^2.1.1",
+    "node-fetch": "^1.7.3",
+    "oauth": "^0.9.15"
+  },
+  "devDependencies": {
+    "http-debug": "^0.1.2",
+    "tape": "^4.8.0"
+  }
+}
