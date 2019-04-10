@@ -2,13 +2,7 @@
 
 This is a wrapping for Trello API
 
-
 @see https://trello.com/app-key
-
-Create an API Key:
-
-https://trello.com/1/authorize?expiration=never&name=JourneyApps&key=b049454aa00aec6c74415682cf6d4f18
-
 
 ## Documentation
 All code is clearly documented, please see code for more details.
